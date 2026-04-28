@@ -32,13 +32,10 @@ ml-from-scratch/
 │   ├── linear_regression.py
 │   ├── logistic_regression.py
 │   └── knn.py
-├── notebooks/
-│   ├── 01_linear_regression.ipynb
-│   ├── 02_logistic_regression.ipynb
-│   └── 03_knn.ipynb
-└── kaggle/
-    ├── titanic/
-    └── house_prices/
+└── notebooks/
+    ├── 01_linear_regression.ipynb
+    ├── 02_logistic_regression.ipynb
+    └── 03_knn.ipynb
 ```
 
 ## Стек
