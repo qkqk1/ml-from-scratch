@@ -23,6 +23,12 @@
 - Проверено на `load_wine`
 - Accuracy совпадает с `sklearn.neighbors.KNeighborsClassifier`
 
+### Decision Tree [`algorithms/decision_tree.py`](algorithms/decision_tree.py)
+- Рекурсивное построение дерева (CART), критерий Джини
+- Параметры останова: `max_depth`, `min_samples`, чистота узла
+- Проверено на `load_iris` и `load_breast_cancer`
+- Accuracy совпадает с `sklearn.tree.DecisionTreeClassifier` до последней цифры
+
 ## Структура репозитория
 
 ```
@@ -31,11 +37,13 @@ ml-from-scratch/
 ├── algorithms/
 │   ├── linear_regression.py
 │   ├── logistic_regression.py
-│   └── knn.py
+│   ├── knn.py
+│   └── decision_tree.py
 └── notebooks/
     ├── 01_linear_regression.ipynb
     ├── 02_logistic_regression.ipynb
-    └── 03_knn.ipynb
+    ├── 03_knn.ipynb
+    └── 04_decision_tree.ipynb
 ```
 
 ## Стек
